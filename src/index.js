@@ -29,7 +29,7 @@ function PrivateRoute({children}) {
 
 root.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<App />}>
           <Route
