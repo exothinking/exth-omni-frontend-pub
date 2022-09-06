@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/exth-omni-frontend-pub/static/css/main.2ad251db.css",
-    "main.js": "/exth-omni-frontend-pub/static/js/main.387bbb40.js",
+    "main.js": "/exth-omni-frontend-pub/static/js/main.8a2a8b27.js",
     "index.html": "/exth-omni-frontend-pub/index.html",
     "main.2ad251db.css.map": "/exth-omni-frontend-pub/static/css/main.2ad251db.css.map",
-    "main.387bbb40.js.map": "/exth-omni-frontend-pub/static/js/main.387bbb40.js.map"
+    "main.8a2a8b27.js.map": "/exth-omni-frontend-pub/static/js/main.8a2a8b27.js.map"
   },
   "entrypoints": [
     "static/css/main.2ad251db.css",
-    "static/js/main.387bbb40.js"
+    "static/js/main.8a2a8b27.js"
   ]
 }
