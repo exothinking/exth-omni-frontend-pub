@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './style/index.css';
 import App from './App';
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
   Navigate
@@ -29,7 +29,7 @@ function PrivateRoute({children}) {
 
 root.render(
   <Provider store={store}>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<App />}>
           <Route
@@ -45,6 +45,6 @@ root.render(
           <Route path="register" element={<Register />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </Provider>
 );
