@@ -3,7 +3,7 @@
 Omni Nofity é um aplicativo de gerenciamento de notificações automáticas que busca otimizar a comunicação entre serviços digitais e clientes.
 
 ## Demonstração
-https://exothinking.github.io/
+https://exothinking.github.io/exth-omni-frontend-pub/
 
 Informações para demonstração:
 

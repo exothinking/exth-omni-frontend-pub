@@ -1,5 +1,5 @@
 // const api = process.env.REACT_APP_API_URL;
-const api = "http://omninotify-backend.herokuapp.com";
+const api = "https://omninotify-backend.herokuapp.com";
 
 export async function getMyApps(token) {
   try {
@@ -9,6 +9,7 @@ export async function getMyApps(token) {
       headers: {
         'Content-Type': 'application/json',
         'authorization': `${token}`,
+        'Origin': `https://exothinking.github.io`
       }
     });
 
@@ -27,6 +28,7 @@ export async function createNewApp(token, appName) {
       headers: {
         'Content-Type': 'application/json',
         'authorization': `${token}`,
+        'Origin': `https://exothinking.github.io`
       },
       body: JSON.stringify({app_name: appName}),
     });
@@ -46,6 +48,7 @@ export async function setChannel(token, channel, appId) {
       headers: {
         'Content-Type': 'application/json',
         'authorization': `${token}`,
+        'Origin': `https://exothinking.github.io`
       }
     });
 
