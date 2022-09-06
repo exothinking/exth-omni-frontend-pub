@@ -31,7 +31,7 @@ root.render(
   <Provider store={store}>
     <HashRouter>
       <Routes>
-        <Route path="/" element={<App />}>
+        <Route path="/" exact element={<App />}>
           <Route
             path="*"
             element={
@@ -39,10 +39,10 @@ root.render(
             }
           />
           <Route index element={<PrivateRoute><MyApps /></PrivateRoute>} />
-          <Route path="apps" element={<PrivateRoute><MyApps /></PrivateRoute>} />
-          <Route path="apps/create" element={<PrivateRoute><CreateApp /></PrivateRoute>} />
-          <Route path="login" element={<Login />} />
-          <Route path="register" element={<Register />} />
+          <Route path="/apps" exact element={<PrivateRoute><MyApps /></PrivateRoute>} />
+          <Route path="/apps/create" exact element={<PrivateRoute><CreateApp /></PrivateRoute>} />
+          <Route path="/login" exact element={<Login />} />
+          <Route path="/register" exact element={<Register />} />
         </Route>
       </Routes>
     </HashRouter>
